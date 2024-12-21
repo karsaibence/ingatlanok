@@ -1,0 +1,23 @@
+.card {
+    width: 400px;
+    max-height: 500px;
+    border-radius: 5px;
+}
+
+.card h3 {
+    background-color: #282c34;
+    
+}
+
+.kep {
+    height: 200px;
+    border-bottom: 2px solid lightgray;
+}
+.card button{
+    background-color: blue;
+    border: none;
+    color: white;
+    border-radius: 3px;
+    width: 100px;
+    height: 30px;
+}

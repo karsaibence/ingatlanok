@@ -1,0 +1,22 @@
+nav{
+    padding-block: 1rem;
+    background-color: rgb(134, 134, 134);
+}
+nav ul{
+    margin-inline: auto;
+    list-style-type: none;
+}
+nav li{
+    margin-inline: 1rem;
+    display: inline;
+    padding: 1rem;
+}
+nav a{
+    color: black;
+    text-decoration: none;
+}
+nav li:hover{
+    background-color: #282c34;
+    color: wheat;
+    transition: 0.5s;
+}

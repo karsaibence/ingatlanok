@@ -11,6 +11,7 @@ Route::get('/user', function (Request $request) {
 })->middleware('auth:sanctum');
 
 Route::get('/ingatlan',[IngatlanController::class, 'index']);
+Route::post('/ingatlan-ment',[IngatlanController::class, 'store']);
 
 
 Route::get('/kategoria',[KategoriaController::class, 'index']);

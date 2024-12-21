@@ -12,5 +12,6 @@ class Kategoria extends Model
 
     protected $fillable = [
         'name',
+        'leiras',
     ];
 }

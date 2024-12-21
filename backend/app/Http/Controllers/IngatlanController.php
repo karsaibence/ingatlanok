@@ -12,7 +12,7 @@ class IngatlanController extends Controller
      */
     public function index()
     {
-        $ingatlan = response()->json(Ingatlan::all());
+        $ingatlan = response()->json(Ingatlan::with('kat')->get());
         return $ingatlan;
     }
 
@@ -21,7 +21,9 @@ class IngatlanController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $a = new Ingatlan();
+        $a->fill($request->all());
+        $a->save();
     }
 
     /**

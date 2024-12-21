@@ -1,0 +1,8 @@
+.fooldal{
+    background: rgb(199, 191, 191);
+    border-collapse: collapse;
+}
+.fooldal td,th{
+    
+    border: 2px solid azure;
+}

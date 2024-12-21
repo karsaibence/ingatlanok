@@ -16,4 +16,8 @@ class Ingatlan extends Model
         'ar',
         'kepURL',
     ];
+    function kat()
+    {
+        return $this->belongsTo(Kategoria::class, 'kategoria', 'id');
+    }
 }
